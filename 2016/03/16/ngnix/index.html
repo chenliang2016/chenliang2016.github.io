@@ -1,0 +1,274 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  
+  <title>Linux下ngnix的安装、配置、使用 | 陈靓的博客</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="安装到官网下载Linux版本当前最新版本1.9.12下载地址
+下载后解压
+1tar -zxvf nginx-1.9.12.tar.gz
+进入到nginx根目录,配置
+1cd ~/etc/nginx-1.9.12/
+1./configure
+安装
+1makr &amp;amp;&amp;amp; make install
+检测是否安装成功
+1cd /usr/local/nginx/sbin/
+1./nginx -t">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Linux下ngnix的安装、配置、使用">
+<meta property="og:url" content="http://yoursite.com/2016/03/16/ngnix/index.html">
+<meta property="og:site_name" content="陈靓的博客">
+<meta property="og:description" content="安装到官网下载Linux版本当前最新版本1.9.12下载地址
+下载后解压
+1tar -zxvf nginx-1.9.12.tar.gz
+进入到nginx根目录,配置
+1cd ~/etc/nginx-1.9.12/
+1./configure
+安装
+1makr &amp;amp;&amp;amp; make install
+检测是否安装成功
+1cd /usr/local/nginx/sbin/
+1./nginx -t">
+<meta property="og:image" content="http://yoursite.com/images/success.png">
+<meta property="og:image" content="http://yoursite.com/images/failure.png">
+<meta property="og:image" content="http://yoursite.com/images/qidong.png">
+<meta property="og:updated_time" content="2016-03-16T12:28:55.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Linux下ngnix的安装、配置、使用">
+<meta name="twitter:description" content="安装到官网下载Linux版本当前最新版本1.9.12下载地址
+下载后解压
+1tar -zxvf nginx-1.9.12.tar.gz
+进入到nginx根目录,配置
+1cd ~/etc/nginx-1.9.12/
+1./configure
+安装
+1makr &amp;amp;&amp;amp; make install
+检测是否安装成功
+1cd /usr/local/nginx/sbin/
+1./nginx -t">
+<meta name="twitter:image" content="http://yoursite.com/images/success.png">
+  
+    <link rel="alternative" href="/atom.xml" title="陈靓的博客" type="application/atom+xml">
+  
+  
+  <link rel="stylesheet" href="/css/style.css">
+  
+    <link href="//fonts.useso.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <!--[if lt IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.min.js"></script><![endif]-->
+  
+</head>
+
+<body>
+<div id="container">
+  <div id="wrap">
+    <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <nav id="upper-nav" class="inner">
+      <a id="main-nav-toggle" class="nav-icon"></a>
+      <div class="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        
+          <a id="nav-github" class="nav-icon" href="https://github.com/chenliang2016"></a>
+        
+      </div>
+    </nav>
+    <div id="header-title">
+      
+        <h1 id="blog-title-wrap">
+          <a href="/" id="blog-title">陈靓的小房子</a>
+        </h1>
+      
+    </div>
+    <div id="contenedor">
+      <ul class="cube">
+        <li class="cara">CHEN</li>
+        <li class="cara"></li>
+        <li class="cara"></li>
+        <li class="cara"></li>
+        <li class="cara"></li>
+        <li class="cara"></li>
+      </ul>
+    </div>
+    <nav id="main-nav">
+      
+        <a class="main-nav-link" href="/">Home</a>
+      
+        <a class="main-nav-link" href="/archives">Archives</a>
+      
+        <a class="main-nav-link" href="/about">About</a>
+      
+      <a class="main-nav-link st-search-show-outputs">Search</a>
+    </nav>
+  </div>
+</header>
+
+    <div class="outer">
+      <section id="main"><article id="post-ngnix" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <h3 href="/2016/03/16/ngnix/" class="article-date">
+  <time datetime="2016-03-16T11:09:21.000Z" itemprop="datePublished">2016-03-16</time>
+</h3>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/服务器/">服务器</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+  <div class="curve-down">
+  <div class="fill-content">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Linux下ngnix的安装、配置、使用
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        
+        <h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><p>到<a href="http://nginx.org/en/download.html" target="_blank" rel="external">官网</a>下载Linux版本<br>当前最新版本1.9.12<a href="http://nginx.org/download/nginx-1.9.12.tar.gz" target="_blank" rel="external">下载地址</a></p>
+<p>下载后解压</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tar -zxvf nginx-1.9.12.tar.gz</span><br></pre></td></tr></table></figure>
+<p>进入到nginx根目录,配置</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd ~/etc/nginx-1.9.12/</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./configure</span><br></pre></td></tr></table></figure>
+<p>安装</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">makr &amp;&amp; make install</span><br></pre></td></tr></table></figure>
+<p>检测是否安装成功</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd /usr/local/nginx/sbin/</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./nginx -t</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>出现以下情况表示安装成功</p>
+</blockquote>
+<p><img src="/images/success.png" alt="安装成功"></p>
+<blockquote>
+<p>如果出现以下情况，需要使用管理员权限执行以上代码</p>
+</blockquote>
+<p><img src="/images/failure.png" alt="失败"></p>
+<h1 id="启动"><a href="#启动" class="headerlink" title="启动"></a>启动</h1><ul>
+<li>进入到/usr/local/nginx/sbin/</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./nginx</span><br></pre></td></tr></table></figure>
+<p><img src="/images/qidong.png" alt="启动成功"></p>
+<p>其他操作使用如下命令</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./nginx -s signal</span><br></pre></td></tr></table></figure>
+<p>signal替换如下一种</p>
+<ul>
+<li>stop– 快速关闭</li>
+<li>quit– 优雅挂壁</li>
+<li>reload– 重新加载配置文件</li>
+<li>reopen– 重新打开log文件</li>
+</ul>
+
+      
+    </div>
+    <footer class="article-footer">
+      <div class="article-footer-content">
+        
+        <a data-url="http://yoursite.com/2016/03/16/ngnix/" data-id="cilutrb5q00004r5hbwqfqidc" class="article-share-link">Share</a>
+        
+      </div>
+    </footer>
+  </div>
+  </div>
+  </div>
+  
+    
+  
+</article>
+
+
+</section>
+      
+      <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recents</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2016/03/16/ngnix/">Linux下ngnix的安装、配置、使用</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/03/">March 2016</a><span class="archive-list-count">1</span></li></ul>
+    </div>
+  </div>
+
+  
+</aside>
+      
+    </div>
+    <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2016 陈靓<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+      .
+      Theme by <a href="https://github.com/sun11/hexo-theme-paperbox" target="_blank">Paperbox</a>
+    </div>
+  </div>
+</footer>
+  </div>
+  <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+    <a href="/about" class="mobile-nav-link">About</a>
+  
+  <a href="#search" class="mobile-nav-link st-search-show-outputs">Search</a>
+</nav>
+  <!-- totop start -->
+<div id="totop">
+	<a title="To Top"></a>
+</div>
+<!-- totop end -->
+<!-- swiftype search start -->
+
+<!-- swiftype search end -->
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<script src="//cdn.bootcss.com/lrsjng.jquery-qrcode/0.12.0/jquery.qrcode.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+</div>
+</body>
+</html>
